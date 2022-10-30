@@ -82,3 +82,17 @@ h1 {
     animation: fade-in 3s 1;
     animation-fill-mode: forwards;
 }
+@media screen and (min-width: 641px) {
+    .card {
+        height: 75%;
+    }
+}
+@media screen and (min-width: 1008px) {
+    .card {
+        height: 55%;
+    }
+    .btn {
+        width: 15em;
+        height: 5em;
+    }
+}

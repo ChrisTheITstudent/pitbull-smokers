@@ -208,3 +208,56 @@
         display: block;
     }
 }
+@media screen and (min-width: 641px) {
+    .hero-image {
+        display: none;
+    }
+    .container {
+        height: auto;
+    }
+    #logo {
+        max-width: 1em;
+    }
+    .hamburger-image {
+        width: 0.25em;
+    }
+    #navLinks {
+    max-height: 85vh;
+    }
+    .top-bar a,
+    #navLinks a {
+        padding: 30px 30px 5px 5px;
+    }
+    .socials {
+        padding-top: 5em;
+    }
+    .content {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto auto auto auto ;
+        grid-gap: 10px;
+    }
+    .product {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 1em;
+        padding: 0;
+    }
+    .product button {
+        width: 100%;
+        font-size: 1.95em;
+    }
+    }
+@media screen and (min-width: 1008px) {
+    #logo {
+        max-width: 3em;
+    }
+    .hamburger-image,
+    .hamburger-image img {
+        width: 3em;
+        height: auto;
+    }
+}
